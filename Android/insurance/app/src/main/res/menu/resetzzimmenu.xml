@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/resetzzim"
+        android:title="찜 목록 비우기">
+
+    </item>
+</menu>

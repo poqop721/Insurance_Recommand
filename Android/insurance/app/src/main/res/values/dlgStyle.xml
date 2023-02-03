@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="MyPageAlertDialog" parent="@style/Theme.AppCompat.Dialog.Alert">
+
+        <item name="android:textColor">@color/white</item>
+
+        <item name="android:typeface">monospace</item>
+
+        <item name="android:background">@color/my_purple_light</item>
+
+    </style>
+
+    <style name="DangerAlertDialog" parent="@style/Theme.AppCompat.Dialog.Alert">
+
+        <item name="android:textColor">@color/white</item>
+
+        <item name="android:typeface">monospace</item>
+
+        <item name="android:background">@color/my_red</item>
+
+    </style>
+
+    <style name="WarningAlertDialog" parent="@style/Theme.AppCompat.Dialog.Alert">
+
+        <item name="android:textColor">@color/white</item>
+
+        <item name="android:typeface">monospace</item>
+
+        <item name="android:background">@color/my_light_blue</item>
+        #6368dc
+    </style>
+
+    <style name="ZzimAlertDialog" parent="@style/Theme.AppCompat.Dialog.Alert">
+
+        <item name="android:textColor">@color/white</item>
+
+        <item name="android:typeface">monospace</item>
+
+        <item name="android:background">@color/my_purple_light</item>
+
+    </style>
+
+    <style name="AllinsAlertDialog" parent="@style/Theme.AppCompat.Dialog.Alert">
+
+        <item name="android:textColor">@color/white</item>
+
+        <item name="android:typeface">monospace</item>
+
+        <item name="android:background">@color/my_green</item>
+
+    </style>
+
+    <style name="MyHealthAlertDialog" parent="@style/Theme.AppCompat.Dialog.Alert">
+
+        <item name="android:textColor">@color/white</item>
+
+        <item name="android:typeface">monospace</item>
+
+        <item name="android:background">@color/my_orange</item>
+        e2924e
+    </style>
+
+
+</resources>
