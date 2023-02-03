@@ -1,0 +1,21 @@
+.curheader{
+    font-weight: 700 !important;
+    color: black !important;
+}
+
+.curheader::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+}
+
+
+.curheader:hover::after{
+    width: 0;
+}
+
+.headernav:hover .curheader::after{    
+    content: "";
+    width: 0%;
+    height: 4px;
+}

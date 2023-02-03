@@ -1,0 +1,133 @@
+.headernav:hover .curheader::after{    
+    background: rgb(72 73 217 / 67%);
+}
+
+.table tbody tr {
+    height: 4vw;
+}
+
+
+.table tbody tr td:nth-child(1) {
+    background-color: rgb(72 73 217 / 67%);
+    width: 6vw;
+}
+
+td:first-child{
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+td:nth-child(2){
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+td:nth-child(3){
+    padding-left: 3vw;
+    padding-right: 2vw;
+}
+
+
+td:nth-child(4){
+    padding-left: 2vw;
+    padding-right: 3vw;
+}
+
+
+td:nth-last-child(1){
+    padding-left: 2vw;
+}
+
+.mypageCon{
+    background-color: white;
+    margin: 0 auto;
+    min-width: 55%;
+    background-color: rgba(255,255,255,0.8); 
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mypageCon a{
+    color: rgb(90, 90, 90);
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.mypageCon>div:not(.myPageTable){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    flex-direction: column;
+}
+
+.mypageCon h2{
+    margin-bottom: 3vw;
+}
+
+
+.myPageTable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4.5%;
+}
+
+fieldset{
+    position: relative;
+    top:2px;
+    border: 0px;
+}
+
+.unzzimbtn{
+    max-width: 40vw;
+    padding: 12px;
+    background-color: rgb(72 73 217 / 67%);
+    border: 0px;
+    color:white; 
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.unzzimbtn:hover{
+    scale:1.05;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.signupbtn{
+    width: 60%;
+    height: 50px;
+    font-size: 1em;
+    background-color: rgb(72 73 217 / 86%);
+    border: 0px;
+    color:white; 
+    font-size: larger;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+.unzzimall{
+    width: 17vw;
+    height: 50px;
+    font-size: 1em;
+    background-color: rgb(72 73 217 / 86%);
+    border: 0px;
+    color:white; 
+    font-size: larger;
+    box-shadow: 1.5px 1.5px 3px gray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.unzzimall:hover{
+    scale: 1.05;
+    cursor: pointer;
+}

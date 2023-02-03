@@ -1,0 +1,85 @@
+body {
+    overflow:auto;
+}
+
+.headernav:hover .curheader::after{    
+  background: rgb(18, 99, 239);
+}
+
+input[type='button']:not(.modalbtn):not(.modalinput){
+    width : 27vw;
+    height:7vh;
+    background-color: rgb(18, 99, 239);
+    border: 0px;
+    color:white;
+    font-size: larger;
+    box-shadow: 3px 3px 5px gray;
+    margin-top: 10%;
+    cursor: pointer;
+    display: inline;
+}
+
+.radio span {
+    vertical-align: middle;
+    margin-left: 8%;
+    font-size: 1.1em;
+  }
+  
+  [type="radio"] {
+    vertical-align: middle;
+    appearance: none;
+    border: max(2px, 0.1em) solid gray;
+    border-radius: 50%;
+    width: 1.25em;
+    height: 1.25em;
+    transition: border 0.5s ease-in-out;
+    margin-bottom: 1%;
+  }
+  
+  [type="radio"]:checked {
+    border: 0.6em solid rgb(18, 99, 239);
+  }
+  
+  [type="radio"]:focus-visible {
+    outline-offset: max(2px, 0.1em);
+    outline: max(2px, 0.1em) dotted tomato;
+  }
+  
+  [type="radio"]:hover {
+    box-shadow: 0 0 0 max(4px, 0.2em) lightgray;
+    cursor: pointer;
+  }
+  
+  [type="radio"]:disabled {
+    background-color: lightgray;
+    box-shadow: none;
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  [type="radio"]:disabled + span {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  .radio {
+    position: relative;
+    margin-top: 2%;
+    justify-content: center;
+  }
+
+  .textbox > p > a{
+    color:rgb(18, 99, 239);
+  }
+  .textbox > ul > li > a{
+    color:rgb(18, 99, 239);
+  }
+
+  .submitbtn{
+    background: url('../img/paging/submit.png') center center / 60% no-repeat;
+    background-repeat: no-repeat; 
+    width:100px;
+    height:100px; 
+    border: 0; 
+    cursor: pointer;
+  }

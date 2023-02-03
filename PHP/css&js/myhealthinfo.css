@@ -1,0 +1,108 @@
+.headernav:hover .curheader::after{    
+    background: rgb(225 130 36 / 75%);
+}
+
+.resultContainer h3{
+    font-size: 1.8em;
+    text-align: left;
+}
+
+.table tbody tr {
+    height: 4.5vw;
+    font-size: 1.1em;
+}
+
+.table tbody tr td:nth-child(1) {
+    background-color: rgb(225 130 36 / 75%);
+}
+
+
+td:first-child{
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+td:nth-child(2){
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+td:nth-child(3){
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+
+td:nth-child(4){
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+
+td:nth-child(5){
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+td:nth-child(6){
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+td:nth-child(7){
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+td:nth-last-child(1){
+    padding-left: 1vw;
+}
+
+#noHealth{
+    position: relative;
+    top: 13vw;
+    font-size: 2.1em;
+}
+
+.resetAll{
+    width: 20vw;
+    height: 50px;
+    font-size: 1em;
+    background-color: rgb(225 130 36 / 85%);
+    border: 0px;
+    color:white; 
+    font-size: larger;
+    box-shadow: 1.5px 1.5px 3px gray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.resetAll:hover{
+    scale: 1.05;
+    box-shadow: 3px 3px 5px gray;
+}
+
+fieldset{
+    position: relative;
+    top:2px;
+    border: 0px;
+}
+
+.delHealthbtn{
+    max-width: 40vw;
+    padding: 12px;
+    background-color: rgb(225 130 36 / 75%);
+    border: 0px;
+    color:white; 
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delHealthbtn:hover{
+    scale:1.05;
+    box-shadow: 1px 1px 3px gray;
+}
