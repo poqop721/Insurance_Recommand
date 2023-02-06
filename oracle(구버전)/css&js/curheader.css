@@ -1,0 +1,27 @@
+.curheader{
+    font-weight: 900;
+    color: black;
+}
+
+.curheader::after{
+    content: "";
+    width: 100%;
+    height: 5px;
+    background: rgb(18, 99, 239);
+}
+
+.curheader:hover{
+    font-weight: 500;
+    color: rgb(80, 80, 80);
+}
+
+.curheader:hover::after{
+    width: 0;
+}
+
+.headernav:hover .curheader::after{    
+    content: "";
+    width: 0%;
+    height: 5px;
+    background: rgb(18, 99, 239);    
+}
