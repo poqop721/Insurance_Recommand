@@ -64,5 +64,92 @@
 - 타 보험 제품 가격 비교 (가입 가격, 보장 가격)
 
 ## 테이블
-<img width="759" alt="스크린샷 2023-02-07 오후 11 52 01" src="https://user-images.githubusercontent.com/103736987/217278813-ba0fdb78-e15a-44eb-aa84-fc67971ab749.png">
+<img width="550" alt="스크린샷 2023-02-07 오후 11 52 01" src="https://user-images.githubusercontent.com/103736987/217278813-ba0fdb78-e15a-44eb-aa84-fc67971ab749.png">
+
+- 스키마 설명
+
+    - CUSTOMERINFO : 고객 정보
+
+    - HEALTH : 개인 건강 정보
+
+    - REFERENCE : 참조 테이블 ( 고객ID, 보험ID )
+
+    - PRODUCT : 보험 상품
+
+    - INS : 보험사
+    
+- 관계
+    - INS, PRODUCT - 1 : N 관계 - INSID 를 통해 PRODUCT 에서 INS를 참조함.
+    - CUSTOMERINFO , HEALTH - 1 : N 관계 - CUSTOMER_ID 를 통해 HEALTH 에서 CUSTOMERINFO를 참조함.
+    - CUSTOMERINFO, REFERENCETABLE, INS - M : N 관계 - CUSTOMERINFO 의 CUSTOMER_ID 와 INS 의 INSID 를 통해 M:N 관계를 성립하는 REFERENCETABLE 가 존재한다.
+- 정규화
+    - 1NF : 테이블의 컬럼이 원자값(Atomic Value, 하나의 값)을 갖도록 테이블이 구성되어 있음.
+    - 2NF : 1정규화를 진행한 테이블에 대해서 완전 함수 종속(Full Functional Dependency) 만족.
+    - BCNF : INSID & CUSTOMER_ID는 후보키 집합에 속함 - 이상현상(Anomaly) 방지.
+- CASCADE
+    - REFERENCEABLE – CUSTOMERINFO : ON DELETE CASCADE - 고객이 회원 탈퇴하면 REFERENCETABLE 에서도 삭제됨.
+    - HELATH - CUSTOMERINFO : ON DELETE CASCADE - 고객이 회원 탈퇴하면 고객의 건강정보다 삭제됨.
+
+## 보험 추천을 위한 건강 진단 기준
+
+<img width="370" alt="스크린샷 2023-02-08 오전 12 41 42" src="https://user-images.githubusercontent.com/103736987/217291718-057fcbe2-6cb2-4222-a889-7e9810ec0df6.png">    <img width="370" alt="스크린샷 2023-02-08 오전 12 39 43" src="https://user-images.githubusercontent.com/103736987/217291240-95911d1c-1816-4610-845e-18c0dbc200a9.png">
+<img width="370" alt="스크린샷 2023-02-08 오전 12 44 06" src="https://user-images.githubusercontent.com/103736987/217292393-2787d55d-7a22-4e78-acbf-f0fb4af18e47.png">  <img width="370" alt="스크린샷 2023-02-08 오전 12 42 42" src="https://user-images.githubusercontent.com/103736987/217292044-94b7aba6-95f6-4f1a-a7ba-93721956ddd3.png">
+<img width="370" alt="스크린샷 2023-02-08 오전 12 41 22" src="https://user-images.githubusercontent.com/103736987/217291632-b4ddb30f-1558-4cc8-ad0c-c133488ba9c7.png">  <img width="370" alt="스크린샷 2023-02-08 오전 12 39 30" src="https://user-images.githubusercontent.com/103736987/217291196-df5fdb5a-cd3b-4ba2-95ec-4d7ea6140c83.png">
+
+## 실행 화면
+
+- 웹 (PHP)<br><br>
+    <img width="450" alt="1" src="https://user-images.githubusercontent.com/103736987/217294260-894a8174-fb2b-4e7f-92b4-447181cc6a39.png">
+    <img width="450" alt="2" src="https://user-images.githubusercontent.com/103736987/217294356-99001549-3059-46ee-ae4b-cef251a8bfdc.png">
+    <img width="450" alt="3" src="https://user-images.githubusercontent.com/103736987/217294531-9b0e4122-9dab-4f28-978b-09bba2369ca6.png">
+    <img width="450" alt="10" src="https://user-images.githubusercontent.com/103736987/217294551-cc61cb3f-90c9-4528-946d-354ee239c32e.png">
+    <img width="450" alt="11" src="https://user-images.githubusercontent.com/103736987/217294557-4156e615-9549-4117-acbe-e3ee33daba9c.png">
+    <img width="450" alt="12" src="https://user-images.githubusercontent.com/103736987/217294568-a5bd0cac-956c-4ea7-89a0-e54a08264307.png">
+    <img width="450" alt="15" src="https://user-images.githubusercontent.com/103736987/217294572-cdd9cfbe-bf23-44c1-8ca5-11ccc0c6aa87.png">
+    <img width="450" alt="18" src="https://user-images.githubusercontent.com/103736987/217294579-2b0bafae-2b94-4d03-a9c5-0af30e638e0e.png">
+    <img width="450" alt="19" src="https://user-images.githubusercontent.com/103736987/217294585-3e122b07-8d40-4be3-947f-3844e4bd5755.png">
+    <img width="450" alt="20" src="https://user-images.githubusercontent.com/103736987/217294587-c5c5eb6f-f8eb-499c-ab87-0def9bcb7779.png">
+
+- 앱 (안드로이드)<br>
+    <img width="190" alt="1" src="https://user-images.githubusercontent.com/103736987/217295432-5cc55fef-21da-4e99-b4d0-b96dfdd28b2a.jpeg">
+    <img width="190" alt="2" src="https://user-images.githubusercontent.com/103736987/217295449-233b0870-4159-48a7-88ad-cdae77695f89.jpeg">
+    <img width="190" alt="3" src="https://user-images.githubusercontent.com/103736987/217295459-8f1d4ea2-63cf-4394-a173-53ab6b7aadcb.jpeg">
+    <img width="190" alt="4" src="https://user-images.githubusercontent.com/103736987/217295472-7bed76f1-cee8-4db4-8b6e-19f2b34a3fd6.jpeg">
+    <img width="190" alt="5" src="https://user-images.githubusercontent.com/103736987/217299445-654bdfae-7a71-495e-a419-2d3ae58fdcb9.jpeg">
+    <img width="190" alt="6" src="https://user-images.githubusercontent.com/103736987/217299188-3e226070-28fb-408c-8a11-61205afda298.jpeg">
+    <img width="190" alt="7" src="https://user-images.githubusercontent.com/103736987/217299193-c8843297-ebbc-48d9-a890-0374eb3b728c.jpeg">
+    <img width="190" alt="8" src="https://user-images.githubusercontent.com/103736987/217299198-9a4d6f41-b1b5-4f5b-a630-6632ea778435.jpeg">
+    <img width="190" alt="9" src="https://user-images.githubusercontent.com/103736987/217299204-50742416-d672-41a6-a20a-0b5b2f4f78e0.jpeg">
+    <img width="190" alt="10" src="https://user-images.githubusercontent.com/103736987/217299209-4b10092f-aa3c-4758-bffd-f982c2848c60.jpeg">
+    <img width="190" alt="11" src="https://user-images.githubusercontent.com/103736987/217299209-4b10092f-aa3c-4758-bffd-f982c2848c60.jpeg">
+    <img width="190" alt="12" src="https://user-images.githubusercontent.com/103736987/217299219-488f80e6-b703-4ef2-8fca-02231813703f.jpeg">
+    <img width="190" alt="13" src="https://user-images.githubusercontent.com/103736987/217299222-d61ffd3f-c6c1-4905-8151-a9d5b3a94850.jpeg">
+    <img width="190" alt="14" src="https://user-images.githubusercontent.com/103736987/217299226-7f95e61e-359b-48d9-9d51-dbe6e36191ee.jpeg">
+        <img width="190" alt="14" src="https://user-images.githubusercontent.com/103736987/217299226-7f95e61e-359b-48d9-9d51-dbe6e36191ee.jpeg">
+            <img width="190" alt="14" src="https://user-images.githubusercontent.com/103736987/217299226-7f95e61e-359b-48d9-9d51-dbe6e36191ee.jpeg">
+                <img width="190" alt="14" src="https://user-images.githubusercontent.com/103736987/217299226-7f95e61e-359b-48d9-9d51-dbe6e36191ee.jpeg">
+                    <img width="190" alt="14" src="https://user-images.githubusercontent.com/103736987/217299226-7f95e61e-359b-48d9-9d51-dbe6e36191ee.jpeg">
+    
+
+
+
+
+
+
+
+
+![25](https://user-images.githubusercontent.com/103736987/217299230-72eca51e-ad34-4c3f-aa9e-492e64d41439.jpeg)
+
+
+![26](https://user-images.githubusercontent.com/103736987/217299236-e3c17ecf-26bb-4ce1-b7e3-53fb06a6005f.jpeg)
+
+    
+    
+
+![13](https://user-images.githubusercontent.com/103736987/217299151-c7a1af28-124f-4265-ab39-4cb7527c5a4b.jpeg)
+![14](https://user-images.githubusercontent.com/103736987/217299172-10b97aee-103f-46d3-84d8-eb2dfcf18872.jpeg)
+
+
+
+
 
