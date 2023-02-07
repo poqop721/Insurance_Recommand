@@ -99,8 +99,8 @@
 ## 실행 화면
 
 - 웹 (PHP)<br><br>
-    <img width="400" alt="1" src="https://user-images.githubusercontent.com/103736987/217294260-894a8174-fb2b-4e7f-92b4-447181cc6a39.png">
-    <img width="400" alt="2" src="https://user-images.githubusercontent.com/103736987/217294356-99001549-3059-46ee-ae4b-cef251a8bfdc.png">
+    <img width="380" alt="1" src="https://user-images.githubusercontent.com/103736987/217294260-894a8174-fb2b-4e7f-92b4-447181cc6a39.png">
+    <img width="380" alt="2" src="https://user-images.githubusercontent.com/103736987/217294356-99001549-3059-46ee-ae4b-cef251a8bfdc.png">
     <img width="400" alt="3" src="https://user-images.githubusercontent.com/103736987/217294531-9b0e4122-9dab-4f28-978b-09bba2369ca6.png">
     <img width="400" alt="10" src="https://user-images.githubusercontent.com/103736987/217294551-cc61cb3f-90c9-4528-946d-354ee239c32e.png">
     <img width="400" alt="11" src="https://user-images.githubusercontent.com/103736987/217294557-4156e615-9549-4117-acbe-e3ee33daba9c.png">
