@@ -101,14 +101,14 @@
 - 웹 (PHP)<br><br>
     <img width="380" alt="1" src="https://user-images.githubusercontent.com/103736987/217294260-894a8174-fb2b-4e7f-92b4-447181cc6a39.png">
     <img width="380" alt="2" src="https://user-images.githubusercontent.com/103736987/217294356-99001549-3059-46ee-ae4b-cef251a8bfdc.png">
-    <img width="400" alt="3" src="https://user-images.githubusercontent.com/103736987/217294531-9b0e4122-9dab-4f28-978b-09bba2369ca6.png">
-    <img width="400" alt="10" src="https://user-images.githubusercontent.com/103736987/217294551-cc61cb3f-90c9-4528-946d-354ee239c32e.png">
-    <img width="400" alt="11" src="https://user-images.githubusercontent.com/103736987/217294557-4156e615-9549-4117-acbe-e3ee33daba9c.png">
-    <img width="400" alt="12" src="https://user-images.githubusercontent.com/103736987/217294568-a5bd0cac-956c-4ea7-89a0-e54a08264307.png">
-    <img width="400" alt="15" src="https://user-images.githubusercontent.com/103736987/217294572-cdd9cfbe-bf23-44c1-8ca5-11ccc0c6aa87.png">
-    <img width="400" alt="18" src="https://user-images.githubusercontent.com/103736987/217294579-2b0bafae-2b94-4d03-a9c5-0af30e638e0e.png">
-    <img width="400" alt="19" src="https://user-images.githubusercontent.com/103736987/217294585-3e122b07-8d40-4be3-947f-3844e4bd5755.png">
-    <img width="400" alt="20" src="https://user-images.githubusercontent.com/103736987/217294587-c5c5eb6f-f8eb-499c-ab87-0def9bcb7779.png">
+    <img width="380" alt="3" src="https://user-images.githubusercontent.com/103736987/217294531-9b0e4122-9dab-4f28-978b-09bba2369ca6.png">
+    <img width="380" alt="10" src="https://user-images.githubusercontent.com/103736987/217294551-cc61cb3f-90c9-4528-946d-354ee239c32e.png">
+    <img width="380" alt="11" src="https://user-images.githubusercontent.com/103736987/217294557-4156e615-9549-4117-acbe-e3ee33daba9c.png">
+    <img width="380" alt="12" src="https://user-images.githubusercontent.com/103736987/217294568-a5bd0cac-956c-4ea7-89a0-e54a08264307.png">
+    <img width="380" alt="15" src="https://user-images.githubusercontent.com/103736987/217294572-cdd9cfbe-bf23-44c1-8ca5-11ccc0c6aa87.png">
+    <img width="380" alt="18" src="https://user-images.githubusercontent.com/103736987/217294579-2b0bafae-2b94-4d03-a9c5-0af30e638e0e.png">
+    <img width="380" alt="19" src="https://user-images.githubusercontent.com/103736987/217294585-3e122b07-8d40-4be3-947f-3844e4bd5755.png">
+    <img width="380" alt="20" src="https://user-images.githubusercontent.com/103736987/217294587-c5c5eb6f-f8eb-499c-ab87-0def9bcb7779.png">
 
 - 앱 (안드로이드)<br><br>
     <img width="190" alt="1" src="https://user-images.githubusercontent.com/103736987/217295432-5cc55fef-21da-4e99-b4d0-b96dfdd28b2a.jpeg">
