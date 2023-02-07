@@ -110,25 +110,29 @@
     <img width="450" alt="19" src="https://user-images.githubusercontent.com/103736987/217294585-3e122b07-8d40-4be3-947f-3844e4bd5755.png">
     <img width="450" alt="20" src="https://user-images.githubusercontent.com/103736987/217294587-c5c5eb6f-f8eb-499c-ab87-0def9bcb7779.png">
 
-- 앱 (안드로이드)<br>
+- 앱 (안드로이드)<br><br>
     <img width="190" alt="1" src="https://user-images.githubusercontent.com/103736987/217295432-5cc55fef-21da-4e99-b4d0-b96dfdd28b2a.jpeg">
     <img width="190" alt="2" src="https://user-images.githubusercontent.com/103736987/217295449-233b0870-4159-48a7-88ad-cdae77695f89.jpeg">
     <img width="190" alt="3" src="https://user-images.githubusercontent.com/103736987/217295459-8f1d4ea2-63cf-4394-a173-53ab6b7aadcb.jpeg">
     <img width="190" alt="4" src="https://user-images.githubusercontent.com/103736987/217295472-7bed76f1-cee8-4db4-8b6e-19f2b34a3fd6.jpeg">
     <img width="190" alt="5" src="https://user-images.githubusercontent.com/103736987/217299445-654bdfae-7a71-495e-a419-2d3ae58fdcb9.jpeg">
-    <img width="190" alt="6" src="https://user-images.githubusercontent.com/103736987/217299188-3e226070-28fb-408c-8a11-61205afda298.jpeg">
-    <img width="190" alt="7" src="https://user-images.githubusercontent.com/103736987/217299193-c8843297-ebbc-48d9-a890-0374eb3b728c.jpeg">
-    <img width="190" alt="8" src="https://user-images.githubusercontent.com/103736987/217299198-9a4d6f41-b1b5-4f5b-a630-6632ea778435.jpeg">
-    <img width="190" alt="9" src="https://user-images.githubusercontent.com/103736987/217299204-50742416-d672-41a6-a20a-0b5b2f4f78e0.jpeg">
-    <img width="190" alt="10" src="https://user-images.githubusercontent.com/103736987/217299209-4b10092f-aa3c-4758-bffd-f982c2848c60.jpeg">
-    <img width="190" alt="11" src="https://user-images.githubusercontent.com/103736987/217299209-4b10092f-aa3c-4758-bffd-f982c2848c60.jpeg">
-    <img width="190" alt="12" src="https://user-images.githubusercontent.com/103736987/217299219-488f80e6-b703-4ef2-8fca-02231813703f.jpeg">
-    <img width="190" alt="13" src="https://user-images.githubusercontent.com/103736987/217299222-d61ffd3f-c6c1-4905-8151-a9d5b3a94850.jpeg">
-    <img width="190" alt="14" src="https://user-images.githubusercontent.com/103736987/217299226-7f95e61e-359b-48d9-9d51-dbe6e36191ee.jpeg">
-        <img width="190" alt="14" src="https://user-images.githubusercontent.com/103736987/217299226-7f95e61e-359b-48d9-9d51-dbe6e36191ee.jpeg">
-            <img width="190" alt="14" src="https://user-images.githubusercontent.com/103736987/217299226-7f95e61e-359b-48d9-9d51-dbe6e36191ee.jpeg">
-                <img width="190" alt="14" src="https://user-images.githubusercontent.com/103736987/217299226-7f95e61e-359b-48d9-9d51-dbe6e36191ee.jpeg">
-                    <img width="190" alt="14" src="https://user-images.githubusercontent.com/103736987/217299226-7f95e61e-359b-48d9-9d51-dbe6e36191ee.jpeg">
+    <img width="190" alt="6" src="https://user-images.githubusercontent.com/103736987/217299151-c7a1af28-124f-4265-ab39-4cb7527c5a4b.jpeg">
+    <img width="190" alt="7" src="https://user-images.githubusercontent.com/103736987/217299172-10b97aee-103f-46d3-84d8-eb2dfcf18872.jpeg">
+    <img width="190" alt="8" src="https://user-images.githubusercontent.com/103736987/217299188-3e226070-28fb-408c-8a11-61205afda298.jpeg">
+    <img width="190" alt="9" src="https://user-images.githubusercontent.com/103736987/217299193-c8843297-ebbc-48d9-a890-0374eb3b728c.jpeg">
+    <img width="190" alt="10" src="https://user-images.githubusercontent.com/103736987/217299198-9a4d6f41-b1b5-4f5b-a630-6632ea778435.jpeg">
+    <img width="190" alt="11" src="https://user-images.githubusercontent.com/103736987/217299204-50742416-d672-41a6-a20a-0b5b2f4f78e0.jpeg">
+    <img width="190" alt="12" src="https://user-images.githubusercontent.com/103736987/217299209-4b10092f-aa3c-4758-bffd-f982c2848c60.jpeg">
+    <img width="190" alt="13" src="https://user-images.githubusercontent.com/103736987/217299219-488f80e6-b703-4ef2-8fca-02231813703f.jpeg">
+    <img width="190" alt="14" src="https://user-images.githubusercontent.com/103736987/217299222-d61ffd3f-c6c1-4905-8151-a9d5b3a94850.jpeg">
+    <img width="190" alt="15" src="https://user-images.githubusercontent.com/103736987/217299226-7f95e61e-359b-48d9-9d51-dbe6e36191ee.jpeg">
+    <img width="190" alt="16" src="https://user-images.githubusercontent.com/103736987/217299230-72eca51e-ad34-4c3f-aa9e-492e64d41439.jpeg">
+    <img width="190" alt="17" src="https://user-images.githubusercontent.com/103736987/217299236-e3c17ecf-26bb-4ce1-b7e3-53fb06a6005f.jpeg">
+    
+## 실행 & 설치
+**게스트용 아이디 : 1234, 비밀번호 : 1234**
+- 보험 추천 웹사이트 : http://poqop721.dothome.co.kr/insurance/main.php
+- 안드로이드 어플리케이션 APK 설치파일 다운로드 : https://drive.google.com/file/d/1OpJ89sXyfLbT9im03plSJ1bjhUxJ-qaw/view
     
 
 
@@ -138,16 +142,7 @@
 
 
 
-![25](https://user-images.githubusercontent.com/103736987/217299230-72eca51e-ad34-4c3f-aa9e-492e64d41439.jpeg)
 
-
-![26](https://user-images.githubusercontent.com/103736987/217299236-e3c17ecf-26bb-4ce1-b7e3-53fb06a6005f.jpeg)
-
-    
-    
-
-![13](https://user-images.githubusercontent.com/103736987/217299151-c7a1af28-124f-4265-ab39-4cb7527c5a4b.jpeg)
-![14](https://user-images.githubusercontent.com/103736987/217299172-10b97aee-103f-46d3-84d8-eb2dfcf18872.jpeg)
 
 
 
