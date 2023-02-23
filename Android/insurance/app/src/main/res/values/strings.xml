@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">보험추천</string>
+    <string name="hint_id"><font size="15">아이디를 입력해주세요.</font></string>
+    <string name="hint_pw"><font size="15">비밀번호를 입력해주세요.</font></string>
+</resources>

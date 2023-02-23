@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(82, 118, 33);
+    color: rgb(107, 105, 105);
+    line-height: 25px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+input{
+    width : 350px;
+    height: 30px;
+    text-align: center;
+    border-collapse:separate;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    margin: 0 auto;
+    width: 350px;
+    background-color: rgba(255,255,255,0.8); 
+    padding: 50px;
+    float: left;
+}
+
+input[type='button']{
+    height:50px;
+    background-color: rgb(206, 24, 24);
+    border: 0px;
+    color:white;
+    font-size: larger;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.btn{
+    margin: 10% 0;
+}

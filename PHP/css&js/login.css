@@ -1,0 +1,81 @@
+#modal.modalbackground {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(154, 154, 154, 0.6);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    z-index: 13;
+}
+#modal .modalbox {
+    background: rgba(255, 255, 255, 0.828);
+    box-shadow: 10px 10px 10px rgb(87, 86, 86);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 30px;
+    width: 450px;
+    height: 430px;
+    padding: 20px;
+}
+
+hr{
+    margin-bottom: -1%;
+}
+
+
+#modal .content {
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginH1{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color : rgb(18, 99, 239);
+}
+
+.modalbtn{
+    width : 90%;
+    height:10%;
+    background-color: rgb(18, 99, 239);
+    border: 0px;
+    color:white;
+    font-size: larger;
+    box-shadow: 3px 3px 5px gray;
+    margin-top: 7%;
+    cursor: pointer;
+    display: inline;
+}
+
+.modalinput{
+    margin-top: 2%;
+    width : 80%;
+    height: 6%;
+    text-align: center;
+    border-collapse:separate;
+    border:solid 1px rgb(159, 159, 159); 
+    border-radius: 3px;
+    margin-top: 2%;
+}
+
+.loginform{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginfieldset{
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+}

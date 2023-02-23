@@ -1,0 +1,136 @@
+
+.headertitleleft {
+    position: fixed;
+    height: 61px;
+    z-index: 11;
+    float: left;
+    left: 50px;
+    top: -0.5%;
+}
+
+.headertitleright {
+    position: fixed;
+    height: 61px;
+    z-index: 11;
+    float: right;
+    right: 3.5%;
+    top: 1.75%;
+}
+.headertitleright #logout{
+    position: fixed;
+    top:5.1%;
+    right: 3.6%;
+    font-size: 0.9em;
+    color: rgb(77, 138, 216);
+    cursor: pointer;
+}
+
+.headertitleright img{
+    cursor: pointer;
+}
+
+.headertitleright .name{
+    position: fixed;
+    right: 8.6%;
+    top: 1.8%;
+    font-size: 1.1em;
+    color:gray;
+}
+
+.headertitleright .sla{
+    position: fixed;
+    right: 7.4%;
+    top: 1.8%;
+    font-size: 1.1em;
+    color:gray;
+}
+
+.headertitleright button {
+    background-color: transparent;
+    border: 0px;
+}
+
+header {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    border-bottom: 1px solid hsl(0, 1%, 72%);
+    background-color: rgba(246, 248, 249, 0.84);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    box-shadow: 1px 1px 5px rgb(181, 179, 179);
+
+}
+
+.headernav {
+    margin-left: 5%;
+    width: 70%;
+}
+
+a {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+    padding: 12px 0;
+    position: relative;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.headernav>span {
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+}
+
+span>a:hover {
+    font-weight: 900;
+    color: black;
+}
+
+span>a{
+    cursor: pointer;
+}
+
+span>a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 5px;
+    background: rgb(18, 99, 239);
+    transition: all .2s ease-in;
+}
+
+span>a:hover::after {
+    width: 100%;
+}
+
+span>a:visited {
+    color: black;
+}
+
+footer {
+    font-size: smaller;
+    border-top: 1px solid hsl(0, 1%, 72%);
+    border-bottom: 0px;
+    position: relative;
+    height:max-content;
+    margin-top: 5vh;
+    top:15vh;
+    width: 98%;
+    z-index: 10;
+    line-height: 20px;
+    padding: 13px;
+    text-align: center;
+    background-color: rgb(246, 248, 249);
+    box-shadow: 1px 1px 5px rgb(181, 179, 179);
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/aii_ins_btn.xml" value="0.1025" />
+        <entry key="app/src/main/res/drawable/black_radius.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/blue_btn.xml" value="0.1025" />
+        <entry key="app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/border_bottom_blue.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/border_bottom_red.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/border_style.xml" value="0.1325" />
+        <entry key="app/src/main/res/drawable/bottom_transparent.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/box_shadow.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/first_tab_btn.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/hintsize.xml" value="0.1025" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/myPageBorder.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/my_health_btn.xml" value="0.1025" />
+        <entry key="app/src/main/res/drawable/my_page_bd.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/my_page_bd_right.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/mypage_editbtn.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/purple_radius.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/red_radius.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/result_btn.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/result_warning_btn.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/tablebck.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/third_radius.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/danlist.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fifthtab.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/firsttab.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fourthtab.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/layout/fragment_fifth.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/fragment_fourth.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/fragment_third.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/home.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/list_row.xml" value="0.9276315789473685" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.17481884057971014" />
+        <entry key="app/src/main/res/layout/main.xml" value="0.17481884057971014" />
+        <entry key="app/src/main/res/layout/my_health_list_row.xml" value="0.20729166666666668" />
+        <entry key="app/src/main/res/layout/mypage.xml" value="0.2554347826086957" />
+        <entry key="app/src/main/res/layout/resultlist.xml" value="0.2554347826086957" />
+        <entry key="app/src/main/res/layout/secondtab.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/signup.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/thirdtab.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/warnlist.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/menu/homemu.xml" value="0.2" />
+        <entry key="app/src/main/res/menu/resetmenu.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/menu/resetzzimmenu.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1025" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/login.xml" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

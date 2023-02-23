@@ -1,0 +1,92 @@
+.headernav:hover .curheader::after{    
+    background: rgba(18, 99, 239,0.7);
+  }
+
+.table tbody tr {
+    height: 5.5vw;
+}
+
+.table tbody tr td:nth-child(1) {
+    background-color: rgba(18, 99, 239,0.7);
+}
+
+
+
+td:first-child{
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+td:nth-child(2){
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+td:nth-child(3){
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+td:nth-child(3)>div{
+    background-color: rgba(44, 153, 68,0.85);
+    padding: 0.65vw;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+td:nth-child(4){
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+td:nth-child(4)>div{
+    background-color: rgba(235, 73, 73,0.85);
+    padding: 0.65vw;
+    border-radius: 5px;
+    color: white;
+}
+
+td:nth-last-child(1){
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+form{
+    position: relative;
+    top:10vh;
+    border: 0px;
+}
+
+fieldset{
+    border: 0 solid rgb(239, 239, 239);
+}
+
+.option{
+    position: relative;
+    top:-2vw;
+}
+
+.select{
+    width: max-content;
+    height:max-content;
+    border-radius: 5px;
+    border: 2px solid rgba(18, 99, 239,0.7);
+    padding: 1%;
+    text-align: center;
+}
+
+.allinsbtn{
+    margin-left: 1vw;
+    width: max-content;
+    height:max-content;
+    background-color: rgba(18, 99, 239,0.7);
+    border-radius: 5px;
+    border: 0px;
+    color:white; 
+    font-size: 1em;
+    box-shadow: 1px 1px 2px gray;
+    cursor: pointer;
+    padding: 1%;
+}

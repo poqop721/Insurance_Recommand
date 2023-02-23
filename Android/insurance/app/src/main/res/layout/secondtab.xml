@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#EFEFEF">
+        <TextView
+            android:id="@+id/res"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="나의 건강정보"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:minHeight="150dp"
+            android:background="@drawable/border"
+            android:padding="20dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/feedback"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:autoSizeMinTextSize="17sp"
+                android:autoSizeMaxTextSize="22sp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+           <Button
+               android:layout_width="300dp"
+               android:layout_height="60dp"
+               android:id="@+id/danBtn"
+               android:textSize="20sp"
+               android:layout_gravity="center"
+               android:layout_marginBottom="20dp"
+               android:textColor="#ffffff"
+               android:background="@drawable/result_danger_btn"
+               android:foreground="?android:attr/selectableItemBackgroundBorderless"
+               android:text="위험 요소 추천 보험 보기"/>
+           <Button
+               android:layout_width="300dp"
+               android:layout_height="60dp"
+               android:id="@+id/warnBtn"
+               android:textSize="20sp"
+               android:layout_gravity="center"
+               android:textColor="#ffffff"
+               android:background="@drawable/result_warning_btn"
+               android:foreground="?android:attr/selectableItemBackgroundBorderless"
+               android:text="주의 요소 추천 보험 보기"
+               android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+</LinearLayout>

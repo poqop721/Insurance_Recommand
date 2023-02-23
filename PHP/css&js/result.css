@@ -1,0 +1,266 @@
+.resultContainer h3{
+    font-size: 1.8em;
+    text-align: left;
+    margin-left: -4vw;
+}
+
+.headernav:hover .curheader::after{    
+    background: rgba(235, 73, 73,0.87)
+  }
+
+.resultContainer h2{
+    font-size: 2.4em;
+    text-align: center;
+}
+
+.labeldan{
+    position: sticky;
+    width: 3vw;
+    left: 100vw;
+    top: 20vw;
+    margin-top: -142%;
+    background-color: rgb(235, 73, 73);
+    border-radius: 10px 0 0 10px;
+    color: white;
+    padding: 0.5vw;
+    z-index: 3;
+}
+.labelwarn{
+    position: sticky;
+    width: 3vw;
+    left: 100vw;
+    top: 20vw;
+    margin-top: -142%;
+    border-radius: 10px 0 0 10px;
+    color: white;
+    padding: 0.5vw;
+    z-index: 3;
+    background-color: rgb(18, 99, 239);
+}
+
+.healthinfoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:68%;
+    border:0px solid rgba(106, 104, 104, 0.6);
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.healthinfoContainer p{
+    font-size: 1.3em;
+    font-weight: 700;
+    color: rgb(62, 62, 62);
+    line-height: 200%;
+}
+
+.healthinfoContainer .notNormal{
+    font-size: 1em;
+    font-weight: 700;
+    color: rgb(18, 99, 239);
+}
+
+.healthinfoContainer .danger{
+    font-size: 1em;
+    font-weight: 700;
+    color: rgb(235, 73, 73);
+}
+
+.table{
+    margin-left: -4vw;
+}
+
+.table tbody tr {
+    cursor: pointer;
+}
+
+.table tbody tr {
+    height: 5.5vw;
+}
+
+.table tbody tr td {
+    position: relative;
+}
+
+
+#danName{
+    background-color: rgba(235, 73, 73,0.8);
+}
+
+#warnName{
+    background-color:rgba(18, 99, 239,0.7);
+}
+
+
+.table tbody tr:not(.trFirst):hover {
+    scale: 1.02;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgb(163, 163, 163);
+}
+
+td:first-child{
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+td:nth-child(2){
+    padding-left: 1.8vw;
+    padding-right: 1.8vw;
+}
+
+td:nth-child(3){
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+td:nth-child(3)>div{
+    padding: 0.65vw;
+    border-radius: 5px;
+    color: white;
+}
+
+.greenbck{
+    background-color: rgba(44, 153, 68,1);
+}
+
+.redbck{
+    background-color: rgba(235, 73, 73,1);
+}
+
+
+td:nth-child(4){
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+
+td:nth-child(4)>div{
+    padding: 0.65vw;
+    border-radius: 5px;
+    color: white;
+}
+
+td:nth-last-child(3){
+    padding-left: 1vw;
+        padding-right: 1vw;
+}
+
+td:nth-last-child(2){
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+
+td:nth-last-child(1){
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.table tbody tr td:nth-last-child(1) {
+    color: white;
+}
+
+form{
+    position: relative;
+}
+
+.zzimbtn{
+    position: relative;
+}
+
+form{
+    border: 0px;
+  }
+
+fieldset{
+    border: 0 solid rgb(239, 239, 239);
+}
+
+.zzimCon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.zzimbtn{
+    align-self: center;
+    width: max-content;
+    max-width: 500px;
+    height:max-content;
+    background-color: rgba(235, 73, 73,0.9);
+    box-shadow: 1.5px 1.5px 3px gray;
+    border-radius: 5px;
+    border: 0px;
+    color:white; 
+    font-size: 1.3em;
+    cursor: pointer;
+    padding: 10%;
+}
+
+.zzimbtn:hover{
+    box-shadow: 3px 3px 5px gray;
+    scale: 1.03;
+}
+
+.click {
+    background-color: rgba(235, 73, 73,0.4) !important;
+  }
+  
+.click2 {
+  background-color: rgba(18, 99, 239,0.4) !important;
+}
+
+#noHealth{
+    position: relative;
+    top: 10vw;
+    font-size: 2.1em;
+}
+
+.select{
+    width: max-content;
+    height:max-content;
+    border-radius: 5px;
+    border: 2px solid rgb(235, 73, 73);
+    padding: 6px;
+}
+
+.selectbtn{
+    margin-left: 5px;
+    width: max-content;
+    height:max-content;
+    background-color: rgb(235, 73, 73);
+    border-radius: 5px;
+    border: 0px;
+    color:white; 
+    font-size: 1em;
+    box-shadow: 1px 1px 2px gray;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.select2{
+    width: max-content;
+    height:max-content;
+    border-radius: 5px;
+    border: 2px solid rgb(18, 99, 239);
+    padding: 6px;
+    text-align: center;
+}
+
+.selectbtn2{
+    margin-left: 5px;
+    width: max-content;
+    height:max-content;
+    background-color: rgb(18, 99, 239);
+    border-radius: 5px;
+    border: 0px;
+    color:white; 
+    font-size: 1em;
+    box-shadow: 1px 1px 2px gray;
+    cursor: pointer;
+    padding: 6px;
+}
